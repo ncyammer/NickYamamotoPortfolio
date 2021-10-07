@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBW Casestudy - Nick Yamamoto Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="../css/loading.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/secondaryStyle.css" rel="stylesheet" type="text/css">
+    <link href="../css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="../css/secondaryResponsive.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <div class="topnav">
+        <ul class=navigation>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../uxdesign.html">UX DESIGN</a></li>
+            <li><a href="../artwork.html">ARTWORK</a></li>
+            <li><a href="../video.html">VIDEO</a></li>
+            <li><a href="../about.html">ABOUT</a></li>
+            <li><a href="../contact.html">CONTACT</a></li>
+        </ul>
+        <div id="hamburgermenu">
+            <img class=openMenu src="../icons/hamburger-menu.png" alt="menu">
+            <img class=closeMenu src="../icons/close.png" alt="close">
+        </div>
+    </div>
+    <ul class=mobilenavigation>
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="../uxdesign.html">UX DESIGN</a></li>
+        <li><a href="../artwork.html">ARTWORK</a></li>
+        <li><a href="../video.html">VIDEO</a></li>
+        <li><a href="../about.html">ABOUT</a></li>
+        <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+</header>
+
+<section class="secondaryPageHeader" id="wbwBanner">
+    <h1 class="secondaryPageTitle">Week-by-week Calculator Template</h1>
+    <h4 class="secondaryPageDes">A simple solution to streamline the process of calculating the media spend by week of advertising campaigns.</h4>
+</section>
+
+<div class="casestudyLayout">
+    <section class="casestudySetup">
+        <h3 class="sectionHead"><b>BACKGROUND</b></h3>
+        <br>
+        <h5><b>THE PROBLEM:</b> Busy Media Planners on entertainment accounts were spending excessive amounts of time to calculate weekly spends of advertising campaigns leading to delays in deliverables and frustration from clients.</h5>
+        <br>
+        <h5><b>THE SOLUTION:</b> A calculator template that automatically performed media math functions allowing Media Planners to simply input provided spends by media type.</h5>
+    </section>
+
+    <section>
+        <br>
+        <p>As part of client requests, Media Planners would need to submit a document detailing how much was being spent each week of a media campaign. The process involved taking spending information from media schedules and plans and inputting into a monthly deliverable. Unfortunately, the task was not a straightforward “Copy & Paste” job as certain media math principles needed to be applied depending on the media type and how it was purchased.</p>
+        <div class="centerText">
+            <p>Gross = Vendor Net / 0.85
+            <br>
+            <br>
+            Client Net = (0.85 + % of Commission Fee) x Gross
+            </p>
+        </div>
+        <p>Certain media types such as Television were represented in Gross Spend on their buys while other media types such as Digital were represented in Vendor Net Spend. The final deliverable had to be in Client Net.</p>
+        <br>
+        <div class="fullSpanImg">
+            <img class="border" src="../images/ux/wbwCalculator/old_userflow.jpg" alt="Userflow before integrating calculator template">
+            <p class="caption">A user flow of the entire process of the exercise</p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h3 class="sectionHead"><b>POTENTIAL FOR PROBLEMS:</b></h3>
+        <div class="quoteBlock" id="wbwProblems">
+            <div class="quoteCard quote1">
+                <h4>“Having to convert from gross to net takes a lot of time and sometimes I forget to net the number down and have to redo them”</h4>
+                <p>- Media Planner</p>
+            </div>
+            <div class="quoteCard quote2">
+                <h4>“There should be a way we can do this automatically, I’m scared of messing one of the schedules up when I’m doing my calculations on the side”</h4>
+                <p>- Media Planner</p>
+            </div>
+            <div class="quoteCard quote3">
+                <h4>“When I get the document, I’m not sure how the planner arrives at the numbers so I basically redo all the calculations which takes even more time”</h4>
+                <p>- Media Manager</p>
+            </div>
+            <div class="quoteCard quote4">
+                <h4>“Everyone approaches it a bit differently, so when I check someone’s work I have to figure out how they did it. I’m surprised there isn’t a standard method”</h4>
+                <p>- Media Associate Director</p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h3 class="sectionHead"><b>IDEATION & SOLUTION:</b></h3>
+        <br>
+        <p>It became apparent that the inconsistency in calculation methods was the main driver in dragging out the process.
+            Since each media planner had a different approach, the manager in charge of the double-check would essentially
+            redo the math to ensure all calculations were correct. The constant rehashing of the media math delayed the
+            submission to the client leading to more frustration. Furthermore, the additional time spent on this deliverable
+            took time away from other deliverables.
+            <br>
+            <br>
+            Recognizing the need for a standardized approach as well as a way to show the work, I began work on an excel
+            sheet to help managers see the mathematical approach and also verify all bottom line totals were correct when
+            netted down.
+        </p>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h3 class="sectionHead"><b>THE CALCULATOR TEMPLATE:</b></h3>
+        <br>
+        <p>The calculator template was created in order to streamline the process and alleviate the process of calculation errors, time-intensive labor, redundant work, and inconsistent approaches. The template was built within Microsoft Excel and would convert Gross or Vendor Net to Client Net where needed and would total the media types at the bottom making this task an easy “Copy & Paste” job.</p>
+        <br>
+        <div class="fullSpanImg">
+            <img class="border" src="../images/ux/wbwCalculator/redline_wbw.png" alt="Calculator Template with annotations">
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h3 class="sectionHead"><b>NEW PROCESS:</b></h3>
+        <div class="fullSpanImg">
+            <img class="border" src="../images/ux/wbwCalculator/new_userflow.jpg" alt="Userflow after integrating calculator template">
+            <p class="caption">Several steps were eliminated allowing for faster completion time</p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h3 class="sectionHead"><b>FEEDBACK:</b></h3>
+        <div class="quoteBlock" id="wbwFeedback">
+            <div class="quoteCard quote1">
+                <h4>“This helps me so much! It also saves me a lot of time so I can focus on other deliverables that we need to get out regularly.”</h4>
+                <p>- Media Planner</p>
+            </div>
+            <div class="quoteCard quote2">
+                <h4>“Love it! I like that I can see the gross and the net numbers so if it looks off I can immediately tell without having to redo all the math again.”</h4>
+                <p>- Media Manager</p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+        <h3 class="sectionHead"><b>CONCLUSION:</b></h3>
+        <br>
+        <p>After showing the template to planners and managers and demonstrating its efficiency, the document was integrated as a standard tool within the team. In general, the average task completion time was reduced by about half. The template was later found to be useful for other processes and exercises. Ultimately, I learned it is better to take initiative to address process problems than to idly continue with inefficient practices.</p>
+    </section>
+    <br><br>
+</div>
+
+
+<footer>
+    <div class="contact">
+        <h5 class="left">LET'S CONNECT<br><br>nicholas.c.yamamoto@gmail.com <br> (408) 318-3190
+        </h5>
+    </div>
+    <div class="footerIcons">
+        <a href="../images/Nicholas Yamamoto Resume 2021.pdf" target="_blank">
+            <div class="resume">
+                <img src="../images/resume_icon.png" alt="" height=74px width=74px>
+                <h5>Resume</h5>
+            </div>
+        </a>
+        <a href="https://www.linkedin.com/in/nicholasyamamoto/" target="_blank">
+            <div class="linkedIn">
+                <img src="../images/LinkedIn-Icon-squircle.png" alt="" height=74px width=74px>
+                <h5>LinkedIn</h5>
+            </div>
+        </a>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="../js/index.js"></script>
+
+</body>
+</html>

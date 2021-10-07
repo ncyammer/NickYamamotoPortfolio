@@ -1,0 +1,160 @@
+@media only screen and (min-width: 1450px){
+    #beginning{
+        grid-template-rows: auto;
+        grid-template-columns: 65% 30%;
+        row-gap: 40px;
+        grid-template-areas: "content1 content2";
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    #wbwProblems{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        grid-template: "quote1 quote2" "quote3 quote4";
+    }
+    #aboutBio{
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto;
+        row-gap: 40px;
+        grid-template-areas: "content1 content2" "content3 content3";
+    }
+    #beginning{
+        grid-template-rows: auto auto;
+        grid-template-columns: 50% 45%;
+        row-gap: 20px;
+        grid-template-areas: "content1 content2" "content1 content1";
+    }
+}
+
+@media only screen and (min-width: 800px){}
+
+@media only screen and (max-width: 800px) {
+    .secondaryPageHeader{
+        text-align: center;
+        height: 200px;
+        margin-top: 80px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "pageTitle";
+        padding: 40px 70px;
+    }
+    .secondaryPageDes{
+        display: none;
+    }
+    #wbwBanner{
+        background-position: top;
+    }
+    .quarterPanel{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 40px;
+        row-gap: 40px;
+        grid-template-areas: "content1 content2" "content3 content4";
+    }
+    #calligraphyGallery{
+        display: grid;
+       justify-content: center;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: auto auto auto auto auto;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-areas:
+        "content1 content2" "content3 content4"
+        "content5 ." "content6 content7"
+        "content8 content9";
+    }
+    /*CASESTUDY PAGES*/
+    .casestudyLayout{
+        margin: 0 70px 40px 70px;
+    }
+    .casestudySetup{
+        margin-bottom: 40px;
+    }
+    .halfPage, .threeQuarterPage, .oneQuarterPage{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        row-gap: 40px;
+        grid-template-areas: "content1" "content2"
+    }
+    .mobileLineUp{
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        row-gap:40px;
+        column-gap: 20px;
+        grid-template-areas: "content1 content1" "content2 content3";
+    }
+    #beginning{
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+        row-gap: 20px;
+        grid-template-areas: "content2" "content1";
+    }
+
+
+    /*WBW Specific*/
+    .sectionCarousel{
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .secondaryPageHeader{
+        height: 80px;
+        padding: 40px 70px;
+        margin-top: 56px;
+    }
+    .quarterPanel{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        grid-template-areas: "content1" "content2" "content3" "content4";
+    }
+    /*CASESTUDY PAGES*/
+    .casestudyLayout{
+        margin: 0 20px 20px 20px;
+    }
+    
+    /*WBW Specific*/
+    #wbwProblems{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template: "quote1" "quote2" "quote3" "quote4";
+    }
+
+    #wbwFeedback{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template: "quote1" "quote2" "quote3" "quote4";
+    }
+
+    .sectionCarousel{
+        margin-bottom: 20px;
+    }
+    .halfPage, .threeQuarterPage, .oneQuarterPage{
+        row-gap: 20px;
+    
+    }
+    #aboutBio{
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+        row-gap: 20px;
+        grid-template-areas: "content1" "content2" "content3";
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) {}

@@ -1,0 +1,345 @@
+.secondaryPageHeader{
+    text-align: left;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "pageTitle" "pageDes";
+    padding: 40px 140px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+.secondaryPageHeader h1{
+    color: white;
+}
+.secondaryPageHeader h4{
+    color: white;
+    font-weight: 400;
+}
+.secondaryPageTitle{
+    grid-area: pageTitle;
+    align-self: center;
+}
+.secondaryPageDes{
+    grid-area: pageDes;
+    align-self: center;
+}
+.fullSpanImg img{
+    width: 100%;
+}
+.halfSpanImg img{
+    width: 50%;
+}
+.threeQSpanImg img{
+    width: 75%;
+}
+.halfHeight{
+    height: 50%;
+}
+.dividerLine{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    margin: 40px auto;
+}
+#budoBanner{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/artwork/budoCard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+}
+#rainBanner{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/artwork/rainCard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#jesusBanner{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/artwork/pabel/wayOf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#calligraphyBanner{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/artwork/caligraphyCard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#eventBannerBanner{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/artwork/eventbannerCard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#logoDesign{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/artwork/logoCard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#sperffBanner{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/sperffCard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+}
+#optcBanner{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/optc-card.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#fccBanner{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/fcc-card.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#wbwBanner{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/wbw-card.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.artSectionHead{
+    text-align: center;
+}
+
+/*CASESTUDY PAGES*/
+.casestudyLayout{
+    margin: 0 140px 40px 140px;
+}
+.casestudyLayout h4{
+    color: black;
+}
+.casestudySetup{
+    margin-bottom: 40px;
+}
+.sectionHead{
+    color: black;
+    text-decoration: underline;
+}
+.sectionSubHead{
+    color: black;
+}
+.centerText{
+    padding: 10px;
+    text-align: center;
+}
+.border{
+    border: 1px solid black !important;
+}
+.quoteBlock{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px;
+}
+.quoteCard{
+    display:inline-block;
+    height: auto;
+    text-align: center;
+    padding: none;
+    margin: 20px;
+}
+.quoteCard h4{
+    color: black;
+}
+.quoteCard p{
+    color: gray;
+    font-style: italic;
+}
+.quote1{
+    grid-area: quote1;
+}
+.quote2{
+    grid-area: quote2;
+}
+.quote3{
+    grid-area: quote3;
+}
+.quote4{
+    grid-area: quote4;
+}
+.halfPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 40px;
+    grid-template-areas: "content1 content2";
+}
+.threeQuarterPage{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 70% 25%;
+    grid-template-rows: 1fr;
+    column-gap: 40px;
+    grid-template-areas: "content1 content2";
+}
+.oneQuarterPage{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 70%;
+    grid-template-rows: 1fr;
+    column-gap: 40px;
+    grid-template-areas: "content1 content2";
+}
+.quarterPanel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+    grid-template-areas: "content1 content2 content3 content4";
+}
+.mobileLineUp{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 40% 25% 25%;
+    grid-template-rows: 1fr;
+    column-gap: 40px;
+    grid-template-areas: "content1 content2 content3";
+}
+.content1{
+    grid-area: content1;
+}
+.content2{
+    grid-area: content2;
+}
+.content3{
+    grid-area: content3;
+}
+.content4{
+    grid-area: content4;
+}
+.content5{
+    grid-area: content5;
+}
+.content6{
+    grid-area: content6;
+}
+.content7{
+    grid-area: content7;
+}
+/*CAROUSEL CUSTOMIZATIONS*/
+.sectionCarousel{
+    width: 100%;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    /* height: 700px;
+    width: 1240px; */
+    display: flex;
+    justify-content: center;
+}
+.carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: all, .5s, ease;
+}
+.carousel-indicators{
+    margin-top: 10px;
+    overflow: hidden;
+    position: static;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+}
+.carousel-indicators li{
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+.carousel-indicators li img {
+    display: block;
+}
+
+/* ARTWORK */
+.centerLine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.underImg{
+    margin-bottom: 80px;
+}
+.overTextRight{
+    position:absolute;
+    display: block;
+    padding: 20px 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom:-50px;
+    right: 0;
+}
+.rightOverlayImg{
+    display: flex;
+    justify-content: flex-end;
+}
+.overTextLeft{
+    position:absolute;
+    display: block;
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom:-50px;
+    left: 0;
+}
+.overImgTop{
+    position: relative;
+}
+.overImg{
+    position: absolute;
+}
+.imgActive{
+    display: block;
+}
+.imgHover{
+    display: none;
+}
+.lbOpen{
+    cursor: pointer;
+}
+
+#calligraphyGallery{
+    display: grid;
+   justify-content: center;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-areas:
+    "content1 content1 content2 content3"
+    "content1 content1 content4 content5"
+    "content6 content7 content8 content9";
+}
+
+#aboutBio{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 400px auto;
+    column-gap: 40px;
+    row-gap: 20px;
+    grid-template-areas: "content1 content2" "content1 content3";
+}
+#beginning{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 45%;
+    column-gap: 40px;
+    row-gap: 20px;
+    grid-template-areas: "content1 content2";
+}
+/* #aboutBio .content3{
+    align-self: end;
+} */
+
+.grid li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+}

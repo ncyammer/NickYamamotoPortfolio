@@ -1,0 +1,346 @@
+@media only screen and (min-width: 1450px){
+
+    .casestudyCard{
+        height: 468px;
+        width: 750px;
+    }
+    .cardHover{
+        height: 20%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .topnav li a {
+        font-size: 16px;
+    }
+    #mediumCards {
+        margin: 40px 80px;
+    }
+
+    #mainAreauxdesign {
+        height: auto;
+        margin: 0px;
+        /* margin-top: 80px; */
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        text-align: center;
+        row-gap: 20px;
+        grid-template-areas: "uxName" "uxBio";
+    }
+    #mainAreaart {
+        height: auto;
+        margin: 0px;
+        /* margin-top: 80px; */
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        text-align: center;
+        row-gap: 20px;
+        grid-template-areas: "artName" "artBio";
+    }
+    #mainAreavideo {
+        height: auto;
+        margin: 0px;
+        /* margin-top: 80px; */
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        text-align: center;
+        row-gap: 20px;
+        grid-template-areas: "videoName" "videoBio";
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .mobilenavigation{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navigation {
+        display: none;
+    }
+    .topnav{
+        width:100%;
+    }
+    #hamburgermenu {
+        float: left;
+        display: flex;
+        align-items: center;
+        margin: 27.5px;
+    }
+    .mobilenavigation {
+        list-style-type: none;
+        position: fixed;
+        top: 80px;
+        left: 0px;
+        padding-left: 0px;
+        margin: 0px;
+        background-color: black;
+    }
+    
+    .mobilenavigation li {
+        padding-left: 20px;
+        height: 55px;
+        width: 320px;
+        background-color: black;
+        border: 2px solid white;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .mobilenavigation li a {
+        font-family: Audiowide;
+        font-size: 16pt;
+        color: white;
+        text-decoration: none;
+        padding: 14.5px 0px 14.5px 0px;
+    }
+    
+    .bio {
+        margin: 70px 70px;
+        padding: 0;
+    }
+    #mediumCards {
+        margin: 20px 20px;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        grid-template-areas: "uxdesignCard" "artworkCard" "videoCard";
+    }
+    #uxdesignCard, #artworkCard, #videoCard{
+        height: 350px;
+    }
+    
+    .mediumCardstyle {
+        background-size: cover;
+    }
+    /* Footer */
+    footer {
+        height: 250px !important;
+        padding: 40px 20px;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    .contact {
+        padding-bottom: 40px;
+    }
+    .footerIcons{
+        margin: 0;
+    }
+    .linkedIn, .resume {
+        margin: 0px 20px 0px 20px;
+    }
+
+    /* UX PAGE */
+
+    #mainAreauxdesign, #mainAreaart, #mainAreavideo{
+        height: 250px;
+        padding: 40px 40px;
+        margin: 0;
+        margin-top: 80px;
+        grid-template-rows: 20% 80%;
+    }
+
+    #casestudies {
+        margin: 20px 20px 20px 20px;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        grid-template-areas: "opTCcasestudy" "fcccaseStudy" "wbwcaseStudy" "sperffcaseStudy"
+    }
+    #artwork {
+        margin: 20px 20px 20px 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "rain" "illustration" "jesus" "calligraphy" "logoDesign" "eventBanner";
+    }
+    #video {
+        margin: 20px 20px 20px 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "editingreel" "iwatch" "keikotips" "youLord";
+    }
+    .casestudyCard {
+        margin: 0px auto 0px auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cardHover {
+        height: 20%;
+        padding: 15px;
+        display: grid;
+        align-items: end;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 100;
+    }
+    .cardHover p {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    /* Typography */
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 16px;
+    }
+    li {
+        font-size: 16px;
+    }
+    .caption{
+        font-family: 'Roboto', sans-serif;
+        font-size: 10pt;
+    }
+    /* Navigation */
+    .topnav {
+        height: 56px;
+        width: 100%;
+    }
+    #hamburgermenu {
+        display: flex;
+        align-items: center;
+        margin: 15.5px 20px;
+    }
+    .mobilenavigation {
+        top: 56px;
+    }
+    .mobilenavigation li {
+        padding-left: 14px;
+    }
+    .navSpacer{
+        margin-top:76px
+    }
+    /* LANDING PAGE */
+    .mainArea {
+        margin-top: 76px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .logo {
+        height: 150px;
+        width: 150px;
+    }
+    .mediumCardstyle {
+        margin: 0;
+    }
+    #mediumCards {
+        margin: 20px 20px;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        grid-template-areas: "uxdesignCard" "artworkCard" "videoCard";
+    }
+    /* Footer */
+    footer {
+        height: 210px;
+        padding: 40px 20px;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    .contact {
+        padding-bottom: 20px;
+    }
+    .footerIcons {
+        padding-top: 20px;
+        margin: 0;
+    }
+    .footerIcons img {
+        height: 50px;
+        width: 50px;
+    }
+    /* ABOUT PAGE */
+    .bio {
+        margin: 20px 20px;
+        padding: 0;
+    }
+
+    .pageBanner{
+        margin-top: 76px;
+    }
+
+    /* UX PAGE */
+    #mainAreauxdesign {
+        height: 80px;
+        margin-top: 56px;
+        grid-template-rows: 1fr;
+        grid-template-areas: "uxName";
+        padding: 20px;
+    }
+    #mainAreaart {
+        height: 80px;
+        margin-top: 56px;
+        grid-template-rows: 1fr;
+        grid-template-areas: "artName";
+        padding: 20px;
+    }
+    #mainAreavideo {
+        height: 80px;
+        margin-top: 56px;
+        grid-template-rows: 1fr;
+        grid-template-areas: "videoName";
+        padding: 20px;
+    }
+    #uxName, #artName, #videoName {
+        padding-left: 0;
+    }
+    #uxBio, #artBio, #videoBio {
+        display: none;
+    }
+    #casestudies {
+        margin: 20px;
+    }
+    #artwork {
+        margin: 20px;
+    }
+    #video {
+        margin: 20px;
+    }
+    /* #vectorIllustration {
+        margin: 20px;
+    } */
+}
+
+@media only screen and (max-width: 500px) {
+    
+    #uxdesignCard, #artworkCard, #videoCard{
+        width: 320px;
+        height: 200px;
+        margin: 0;
+    }
+    #mediumCards a{
+        justify-self:center
+    }
+    .cardlink, .casestudyCard{
+        width: 320px;
+        height: 200px;
+        margin: 0;
+        justify-self:center
+    }
+}

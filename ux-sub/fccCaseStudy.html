@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC Casestudy - Nick Yamamoto Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="../css/loading.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/secondaryStyle.css" rel="stylesheet" type="text/css">
+    <link href="../css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="../css/secondaryResponsive.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <div class="topnav">
+        <ul class=navigation>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../uxdesign.html">UX DESIGN</a></li>
+            <li><a href="../artwork.html">ARTWORK</a></li>
+            <li><a href="../video.html">VIDEO</a></li>
+            <li><a href="../about.html">ABOUT</a></li>
+            <li><a href="../contact.html">CONTACT</a></li>
+        </ul>
+        <div id="hamburgermenu">
+            <img class=openMenu src="../icons/hamburger-menu.png" alt="menu">
+            <img class=closeMenu src="../icons/close.png" alt="close">
+        </div>
+    </div>
+    <ul class=mobilenavigation>
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="../uxdesign.html">UX DESIGN</a></li>
+        <li><a href="../artwork.html">ARTWORK</a></li>
+        <li><a href="../video.html">VIDEO</a></li>
+        <li><a href="../about.html">ABOUT</a></li>
+        <li><a href="../contact.html">CONTACT</a></li>
+    </ul>
+</header>
+
+<section class="secondaryPageHeader" id="fccBanner">
+    <h1 class="secondaryPageTitle">FCC Website Redesign</h1>
+    <h4 class="secondaryPageDes">An evaluation and proposed redesign of the Federal Communications Commission (FCC) website at the end of 2020.</h4>
+</section>
+
+<div class="casestudyLayout">
+    <section class="casestudySetup">
+        <h4 class="sectionHead"><b>BACKGROUND</b></h4>
+        <br>
+        <h5><b>THE PROBLEM:</b> Highly specific and complex use cases have contributed to cluttered web design prioritizing function over features as well as aversion by the general public.</h5>
+        <br>
+        <h5><b>THE SOLUTION:</b> Creating a coherent and structured hierarchy as well as a refreshed, contemporary design will allow smoother navigation and perhaps a better understanding of what the FCC does among the general public.</h5>
+        <br>
+        <h5><b>ROLE:</b> UX Researcher, UI Designer</h5>
+        <br>
+        <h5><b>TOOLS:</b> Adobe XD, Affinity Photo, Figma, Invision App, Miro, Giphy Capture</h5>
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <div class="halfPage">
+            <div class="content1">
+                <h3><u><b>What does the FCC do?</b></u></h3>
+                <br>
+                <h4>As stated on their website, "The Federal Communications Commission regulates interstate and
+                    international communications by radio, television, wire, satellite, and cable in all 50 states, the
+                    District of Columbia and U.S. territories.”</h4>
+            </div>
+            <div class="content2 fullSpanImg">
+                <img class="border" src="../images/ux/fccCasestudy/fcc_2020.png" alt="FCC Website in 2020">
+                <p class="caption">The FCC website as it looked at the end of 2020.</p>
+            </div>
+        </div>
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <h3 class="sectionHead"><b>USER RESEARCH:</b></h3>
+        <br>
+        <p>There are varying use cases for the FCC Website among various users. The majority of the site, however, assumes
+            the user is familiar with the logistics and legalities of issues pertaining to communications in the United
+            States. As such, I focused my research efforts on the use cases of experts.</p>
+        <br>
+        <h4 class="sectionSubHead"><b>Proto Persona:</b></h4>
+        <br>
+        <div class="threeQuarterPage">
+            <div class="fullSpanImg content2">
+                <img class="border right" src="../images/ux/fccCasestudy/proto_persona.jpg" alt="Proto Persona">
+            </div>
+            <p class="content1">I began by creating a proto-persona that would guide my design decisions moving forward. I
+                assumed my proto-persona would have been visiting the site regularly and frequently for job purposes. As
+                most of the action items on the homepage dealt with proceedings and legal work, I made my proto-persona was
+                a legal council. As such, his main goal would be to keep up to date on rules and regulations issued by the
+                FCC and be able to file necessary documents.<br><br>I assumed my persona, Sam, would have been working in
+                this industry for quite some time so I decided to age him up. I also made him partially color blind with
+                fading vision to remain conscious of how the FCC website addresses accessibility issues. A potential issue
+                someone at Sam’s age might experience is transitioning to newer modalities such as a smart phone.</p>
+        </div>
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <h3 class="sectionHead"><b>INTERFACE & NAVIGATION ANALYSIS:</b></h3>
+        <br>
+        <p>While the site was usable, it contained a number of glaring issues that made for an overwhelming and cluttered experience.</p>
+        <br>
+        <h4 class="sectionSubHead"><b>Design Issues:</b></h4>
+        <br>
+        <div class="halfPage">
+            <div class="content2">
+                <ul>
+                    <li>General inconsistencies in format gives user a cluttered feeling</li>
+                    <br>
+                    <li>No clear hierarchy or priority in navigation</li>
+                    <br>
+                    <li>Several assets are not properly aligned adding to the overwhelming experience</li>
+                    <br>
+                    <li><a href="https://www.figma.com/file/iedkw8tZIdGmxbCQtTx4My/FCC-Nick-Yamamoto-Redline-Annotation?node-id=0%3A1" target="Blank">Complete redline annotations</a></li>
+                </ul>
+            </div>
+            <div class="content1 fullSpanImg">
+                <img class="border" src="../images/ux/fccCasestudy/redline_annotation.png" alt="Redline Annotations">
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section>
+        <h4 class="sectionSubHead"><b>User Test Feedback:</b></h4>
+        <div class="quoteBlock" id="wbwProblems">
+            <div class="quoteCard quote1">
+                <h4>“I wasn’t expecting much since it’s a government site.”</h4>
+            </div>
+            <div class="quoteCard quote2">
+                <h4>“If I sit with it for a while I might be able to get [the navigation] down”</h4>
+            </div>
+            <div class="quoteCard quote3">
+                <h4>“It’s pretty intuitive where everything is, just a bit overwhelming”</h4>
+            </div>
+            <div class="quoteCard quote4">
+                <h4>“This site isn’t very User friendly [...] it’s probably made for someone like an attorney”</h4>
+            </div>
+        </div>
+        <div class="centerText">
+            <p>User test feedback likewise pointed to a cluttered and overwhelming feeling. Which set me in my wireframing stages.</p>
+        </div>
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <h3 class="sectionHead"><b>INFORMATION ARCHITECTURE:</b></h3>
+        <br>
+        <h5>Overall, categories remained relatively the same; however, consolidation of content was necessary to help mitigate an overwhelming experience. With consolidated categories, the secondary navigation became condensed and would make for a less cluttered experience.</h5>
+        <br>
+        <div class="halfPage">
+            <div class="content1 fullSpanImg">
+                <h5 class="sectionSubHead"><b>Card Sorting:</b></h5>
+                <img class="border" src="../images/ux/fccCasestudy/cardsorting.jpg" alt="Card Sorting">
+            </div>
+            <div class="content2 fullSpanImg">
+                <h class="sectionSubHead"><b>Redesigned Sitemap:</b></h5>
+                <img class="border" src="../images/ux/fccCasestudy/sitemap.jpg" alt="Sitemap">
+            </div>
+        </div>
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <h3 class="sectionHead"><b>NAVIGATION REDESIGN:</b></h3>
+        <br>
+        <p>I created a navigation bar that unfolds in a sequential organization scheme to help users keep track of where they are.</p>
+        <br>
+        <img class="centerImage border" src="../images/ux/fccCasestudy/navbar_lofi.gif" alt="Lo-fi Navbar">
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <h3 class="sectionHead"><b>LO-FI HOMEPAGE WIREFRAME:</b></h3>
+        <br>
+        <div class="halfPage">
+            <div class="content2 fullSpanImg">
+                <img class="border" src="../images/ux/fccCasestudy/lofi_homepage.png" alt="Lo-fi Homepage Wireframe">
+            </div>
+            <div class="content1">
+                <ul>
+                    <li>Reorganized the placement of content so user is given a sense of hierarchy.</li>
+                    <br>
+                    <li>Maintained links to important systems that are likely to fall within Sam’s use cases.</li>
+                    <br>
+                    <li>Structured page such that users are not overwhelmed with the number of options and increased spacing between sections so user has room to breathe</li>
+                    <br>
+                    <li>Fixed broad level alignment issues.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <h3 class="sectionHead"><b>STYLE GUIDE:</b></h3>
+        <br>
+        <div class="halfPage">
+            <div class="content1 fullSpanImg">
+                <img class="border" src="../images/ux/fccCasestudy/style_guide.gif" alt="Style guide">
+            </div>
+            <div class="content2">
+                <div class="content1">
+                    <h5 class="sectionHead"><b>Guidelines:</b></h5>
+                    <ul>
+                        <li>Overall, the UI style should feel contemporary. While modern and highly stylized elements are great, it is important to remember that users of the primary website are looking for functionality of the site.</li>
+                        <br>
+                        <li>Color palette remains relatively the same; however, incorporating the yellow as a highlighting indication.</li>
+                        <br>
+                        <li>Changed font to Roboto in order to prioritize legibility.</li>
+                        <br>
+                        <li><a href="https://drive.google.com/file/d/1NzeuTPmaJN3J5pl77ZvspU1XVW8C5ujq/view" target="Blank">View complete style guide here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <h3 class="sectionHead"><b>Hi-FI HOMEPAGE WIREFRAME:</b></h3>
+        <br>
+        <div class="halfPage">
+            <div class="content2 fullSpanImg">
+                <img class="border" src="../images/ux/fccCasestudy/new_homepage_higi.png" alt="Lo-fi Homepage Wireframe">
+            </div>
+            <div class="content1">
+                <p>After creating a style guide, I applied the design styles to my lo-fi wireframe to create a high fidelity mock-up.<br><br>I then proceeded to conduct user tests.</p>
+            </div>
+        </div>
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <h3 class="sectionHead"><b>USER TESTING & ITERATION:</b></h3>
+        <br>
+        <img class="centerImage border" src="../images/ux/fccCasestudy/navbar_faulty.png" alt="Lo-fi Navbar">
+        <br>
+        <div>
+            <h4 class="sectionSubHead"><b>FEEDBACK:</b></h4>
+            <div class="quoteBlock" id="wbwFeedback">
+                <div class="quoteCard quote1">
+                    <h4>“The header was confusing, I thought ‘About the FCC’ was going to take me to a page.”</h4>
+                </div>
+                <div class="quoteCard quote2">
+                    <h4>“It was a little hard to see the secondary Nav cause it’s all blue.”</h4>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h4 class="sectionSubHead"><b>ITERATION:</b></h4>
+        <br>
+        <div class="halfPage">
+            <div class="content2 fullSpanImg">
+                <img class="border" src="../images/ux/fccCasestudy/navbar_iterate.png" alt="Iterated NavBar">
+            </div>
+            <div class="content1">
+                <ul>
+                    <li>Added arrows and micro-interactions to the hover and active states of navigation sliders to establish them as drawers.</li>
+                    <br>
+                    <li>To create more contrast, the background of the secondary navigation buttons was changed to a grayscale gradient.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <h3 class="sectionHead"><b>RESPONSIVE WEB-DESIGN:</b></h3>
+        <br>
+        <p>As the site includes highly complex forms and the action items would likely be more conducive to a desktop modality, use cases for the FCC site would likely be limited to checking status updates on proceedings or news & events.</p>
+        <br>
+        <h4 class="sectionSubHead"><b>Mobile Wireframes:</b></h4>
+        <br>
+        <div class="mobileLineUp">
+            <div class="content2 fullSpanImg">
+                <p class=sectionHead>Lo-Fi Wireframe</p>
+                <img class="border" src="../images/ux/fccCasestudy/mobile_lofi.png" alt="Lo-fi Mobile Wireframe">
+            </div>
+            <div class="content3 fullSpanImg">
+                <p class=sectionHead>Hi-Fi Mock-up</p>
+                <img class="border" src="../images/ux/fccCasestudy/mobile_hifi_a.jpg" alt="Hi-fi Mock-up">
+            </div>
+            <div class="content1">
+                <ul>
+                    <li>In order to avoid an overwhelming experience, the Quick Links and Filing links are prioritized.</li>
+                    <br>
+                    <li>As mobile use cases are more likely for “checking” purposes, user would most likely be able to work within the Quick Links or Filing links.</li>
+                    <br>
+                    <li>Primary navigation was condensed into hamburger menu to avoid clutter.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <h3 class="sectionHead"><b>A/B TESTING:</b></h3>
+        <br>
+        <div class="fullSpanImg">
+            <img class="border" src="../images/ux/fccCasestudy/abtest.png" alt="A/B Testing side-by-side">
+        </div>
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <h4 class="sectionSubHead"><b>Results:</b></h4>
+        <br>
+        <div class="halfPage">
+            <div class="content1 fullSpanImg">
+                <img class="border" src="../images/ux/fccCasestudy/test_results.png" alt="Results">
+            </div>
+            <div class="content2">
+                <p class="sectionSubHead"><b>Feedback:</b></p>
+                <ul>
+                    <li>Pinning the search bar feels cluttered.</li>
+                    <br>
+                    <li>Slight leaning towards putting “Quick Links” before Submit Filing.</li>
+                    <br>
+                    <li>The hamburger menu was too small..</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <div class="halfPage">
+            <div class="content1 fullSpanImg" style="text-align: center;">
+                <!-- <a href="https://xd.adobe.com/view/338dd7a3-a725-45a7-be2f-fa5b61647532-66de/?fullscreen" target="Blank"><h3>Desktop Prototype</h3></a> -->
+                    <img src="../images/ux/fccCasestudy/fccPrototype_desktop.png" alt="Desktop Prototype Link">
+                    <br><br>
+                    <div class="linkButton">
+                        <a href="https://xd.adobe.com/view/338dd7a3-a725-45a7-be2f-fa5b61647532-66de/?fullscreen"
+                            target="_blank">
+                            <button>VIEW DESKTOP PROTOTYPE</button>
+                        </a>
+                    </div>
+            </div>
+            <div class="content2 fullSpanImg" style="text-align: center;">
+                <!-- <a href="https://xd.adobe.com/view/631b9120-fe2c-42b2-921f-9305846bbd98-3648/?fullscreen" target="Blank"><h3>Mobile Prototype</h3></a> -->
+                <img src="../images/ux/fccCasestudy/fccPrototype_mobile.png" alt="Desktop Prototype Link">
+                <br><br>
+                    <div class="linkButton">
+                        <a href="https://xd.adobe.com/view/338dd7a3-a725-45a7-be2f-fa5b61647532-66de/?fullscreen"
+                            target="_blank">
+                            <button>VIEW MOBILE PROTOTYPE</button>
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <div class="dividerLine"></div>
+    <section>
+        <h3 class="sectionHead"><b>CONCLUSION:</b></h3>
+        <br>
+        <p>It is likely that content and systems were simply added to the existing website which led to the overhwelming
+            experience. As communications and media technology continue to evolve, more content will need to be added into
+            the FCC website. Rather than building on the existing systems, it would be better if they were integrated within
+            the existing structure of the site. Furthermore, constant maintainence and iteration will help mitigate a a
+            cluttered experience for both experts and consumers.<br><br>As seen in user testing, the general public does not
+            seem to be fully aware of the FCC's initiatives nor responsibilities. Using language that is understandable to both
+            expoerts like Sam and general consumers could help the FCC gain trust with the general public. </p>
+    </section>
+    <br><br>
+</div>
+
+<footer>
+    <div class="contact">
+        <h5 class="left">LET'S CONNECT<br><br>nicholas.c.yamamoto@gmail.com <br> (408) 318-3190
+        </h5>
+    </div>
+    <div class="footerIcons">
+        <a href="../images/Nicholas Yamamoto Resume 2021.pdf" target="_blank">
+            <div class="resume">
+                <img src="../images/resume_icon.png" alt="" height=74px width=74px>
+                <h5>Resume</h5>
+            </div>
+        </a>
+        <a href="https://www.linkedin.com/in/nicholasyamamoto/" target="_blank">
+            <div class="linkedIn">
+                <img src="../images/LinkedIn-Icon-squircle.png" alt="" height=74px width=74px>
+                <h5>LinkedIn</h5>
+            </div>
+        </a>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="../js/index.js"></script>
+
+</body>
+</html>
